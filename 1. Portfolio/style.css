@@ -24,6 +24,7 @@ body{
     width: 100%;
     height: 100vh;
     background-image: url(./Images/img/bgedit.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
