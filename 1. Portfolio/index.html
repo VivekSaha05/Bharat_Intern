@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords"
+        content="vivek saha, portfolio, vivek, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description"
+        content="Welcome to vivek's Portfolio. Full-Stack Web Developer and Android App Developer" />
+    <title>Portfolio | Vivek Saha</title>
+    <link rel="stylesheet" href="style.css" />
+    <link id="favicon" rel="shortcut icon" href="Images/icons/logo3.png" type="image/x-png" />
+</head>
+
+<body>
+    <!-- --- NAV SECTION --- -->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/icons/logo1.png" class="logo" href="#header"/>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>
+                    Hi There !<br />
+                    I'm Vivek <span>Saha</span>
+                </h1>
+                <p>I am into <span class="typejs"></span></p>
+                <div class="social-icons1">
+                    <a href="https://www.linkedin.com/in/viveksaha05" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/VivekSaha05" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/vivek_saiyan/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/viveksaha05" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Vivek_Saha2" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/c/VivekSaha?sub_confirmation=1" target="_blank"><i
+                            class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --- NAV ENDS HERE --- -->
+
+    <!-- --- ABOUT SECTION --- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/img/heroblack.png" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h3>I'm Vivek</h3>
+                    <p><span class="typejs2"></span></p>
+                    <p>
+                        I am a Full-Stack web and android developer and a youtuber based
+                        in Sambalpur, India. I am an Computer Science undergraduate from
+                        GIETU Gunupur. I am very passionate about improving my coding
+                        skills, developing applications, websites & Content making. I
+                        build Websites and apps. Working for myself to improve my skills.
+                        Love to learn new things.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('personal')">
+                            Personal Info
+                        </p>
+                        <p class="tab-links" onclick="opentab('youtube')">Youtube</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Web Development</span><br />Building and Designing
+                                Webpages
+                            </li>
+                            <li>
+                                <span>App Development</span><br />Building Android/iOS Apps
+                            </li>
+                            <li><span>Content Creator</span><br />Making Youtube Videos</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="personal">
+                        <ul>
+                            <div class="box">
+                                <li>
+                                    <span>age:</span><br />
+                                    19
+                                </li>
+                                <li>
+                                    <span>place :</span><br />
+                                    Sambalpur, India - 768017
+                                </li>
+                            </div>
+                            <div class="box">
+                                <li>
+                                    <span>Mobile Number :</span><br />
+                                    +91 933-711-3804
+                                </li>
+                                <li>
+                                    <span>Email :</span><br />
+                                    viveksahapop@gmail.com
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="youtube">
+                        <ul>
+                            <li>
+                                <i class="fa-brands fa-youtube"></i><span> @ VivekSaha</span><br />Making youtube videos
+                                since 2015 and have a great
+                                knowledge in Video/Photo editing. But concistently Uploading
+                                Videos on My Personal channel since 2021. Initially i was
+                                making Coding videos and Some Tech related videos But changed
+                                my channel niche to Vlogging Content. By doing Vlogging apart
+                                from studies gives me more knowledge in the field of Video
+                                Making, Audio Editing, Photo Editing, Story Telling, etc.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --- ABOUT SECTION ENDS --- -->
+
+    <!-- --- EDUCATION SECTION --- -->
+    <div id="education">
+        <div class="education">
+            <h1 class="sub-title">My Education</h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img draggable="false" src="Images/Education/college.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                        <h3>
+                            Gandhi Institute Of Engineering and Technology | Gunupur, Odisha
+                        </h3>
+                        <p>Bachelor of Computer Science and Engineering | B.Tech</p>
+                        <h4>2021-2025 | Pursuing</h4>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img draggable="false" src="Images/Education/school2.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                        <h3>Madnawati Public School | Sambalpur, Odisha</h3>
+                        <p>Intermediate | CBSE</p>
+                        <h4>2019-2021 | Completed</h4>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img draggable="false" src="Images/Education/school.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                        <h3>Sri Satya Sai Kiddie's Abode | Burla, Odisha</h3>
+                        <p>Matriculation | CBSE</p>
+                        <h4>2007-2019 | Completed</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --- EDUCATION ENDS HERE --- -->
+
+    <!-- --- SKILLS SECTION --- -->
+    <!-- --- SKILLS ENDS HERE --- -->
+
+    <!-- --- PROJECTS SECTION --- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Projects/pfvivek.jpg" />
+                    <div class="layer">
+                        <h3>Personal Portfolio</h3>
+                        <p>
+                            This is my first portfolio which i made by using HTML, CSS,
+                            JAVASCRIPT and JQUERY
+                        </p>
+                        <a href="https://viveksaha.netlify.app" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Projects/android.jpg" />
+                    <div class="layer">
+                        <h3>Portfolio App</h3>
+                        <p>
+                            This is my First Application (Portfolio app) which i made using
+                            Android Studio in the language of kotlin
+                        </p>
+                        <a href="https://github.com/VivekSaha05/PortfolioApp" target="_blank"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Projects/lt.png" />
+                    <div class="layer">
+                        <h3>Linktree</h3>
+                        <p>
+                            This page contains all the links of my Social medias and Sites
+                            from which anyone can connect with me easily.
+                        </p>
+                        <a href="https://linktr.ee/viveksaha" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">View All</a>
+        </div>
+    </div>
+
+    <!-- --- PROJECTS ENDS HERE --- -->
+
+    <!-- --- CONTACT SECTION --- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>viveksahapop@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 933-711-3804</p>
+                    <div class="social-icons2">
+                        <a href="https://www.linkedin.com/in/viveksaha05" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/VivekSaha05" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/vivek_saiyan/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/viveksaha05" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/Vivek_Saha2" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/c/VivekSaha?sub_confirmation=1" target="_blank"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="contact-right">
+                        <form method="POST"
+                            action="https://script.google.com/macros/s/AKfycbxaLZ3LAMCQ9v3wt6XAw6VVJACbRrGADIUG8n2eICl1yD4Fuzf9R_gE-v-tCwEGMJajVQ/exec">
+                            <input type="text" name="Name" placeholder="Your Name" required />
+                            <input type="email" name="Email" placeholder="Your Email" required />
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --- CONTACT ENDS HERE --- -->
+
+    <!-- --- FOOTER SECTION --- -->
+    <footer>
+        <div class="copyright">
+            <p>Made with BrainPower 😂🧠 by Vivek.</p>
+        </div>
+    </footer>
+    <!-- --- FOOTER ENDS HERE --- -->
+
+    <!-- Back to top button -->
+    <button type="button2" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- --- ALL CDN n SCRIPTS HERE --- -->
+    
+    <script>
+        let mybutton = document.getElementById("btn-back-to-top");
+
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        mybutton.addEventListener("click", backToTop);
+
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <script src="js/typed.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/f178c5e0c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
