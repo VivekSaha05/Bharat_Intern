@@ -23,7 +23,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/img/bgedit.jpg);
+    background-image: url(./Images/img/bgedit.jpg);
     background-size: cover;
     background-position: center;
 }
