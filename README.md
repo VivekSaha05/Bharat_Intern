@@ -27,3 +27,14 @@ Typed.js, Scroll Reveal, ICON8, Font Awesome.
  </tr>
 </table>
 <a href="https://bitempconverter.vercel.app/" target="_blank">**Visit Now** 🚀</a>
+
+## Task 3 - Netflix Homepage Clone
+<table>
+ <tr>
+  <td><img src = "#"></td>
+ </tr>
+</table>
+<a href="#" target="_blank">**Visit Now** 🚀</a>
+
+
+# Thank You 😊✌️
